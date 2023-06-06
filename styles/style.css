@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body section.animation-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  z-index: 10;
+}
+body section.animation-wrapper section.animation {
+  margin-left: 10vw;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body section.animation-wrapper section.animation .image-area {
+  height: 100vh;
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+body section.animation-wrapper section.animation .image-area img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body section.animation-wrapper section.animation .image-area h1 {
+  position: absolute;
+  left: 35%;
+  top: 45%;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 4.5rem;
+  filter: drop-shadow(12px 12px 10px rgba(0, 0, 0, 0.7));
+}
+body section.animation-wrapper section.animation .line1 {
+  position: absolute;
+  left: 30%;
+  top: 60%;
+  width: 100%;
+  height: 8px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 7px 7px 5px rgba(30, 30, 26, 0.5);
+}
+body section.animation-wrapper section.animation .line2 {
+  position: absolute;
+  right: 28%;
+  top: -10%;
+  width: 8px;
+  height: 95vh;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 7px 7px 5px rgba(30, 30, 26, 0.5);
+}
+body section.animation-wrapper .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #ffd0ff, #7a4d84);
+  z-index: -1;
+}
+body header nav div.container-fluid a.navbar-brand img {
+  width: 3.5vw;
+}
+body header nav div.navbar-collapse ul.dropdown-menu {
+  width: 290px;
+}
+body header nav div.navbar-collapse ul.dropdown-menu li {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+body main section.personal-profile {
+  min-height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+body main section.personal-profile div.word {
+  flex-basis: 450px;
+}
+body main section.personal-profile div.word h1 {
+  margin: 2rem 0;
+}
+body main section.personal-profile div.word a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #b15bff;
+  border: 2px solid #b15bff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+body main section.personal-profile div.word a:hover {
+  background-color: #ca8eff;
+  border: 2px solid #ca8eff;
+}
+body main section.personal-profile img {
+  flex-basis: 300px;
+}
+body main section.my-info {
+  background-color: #e6caff;
+  min-height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main section.my-info div.word {
+  width: 60%;
+  margin-top: 1rem;
+}
+body main section.my-info div.word h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+body main section.my-info div.chart {
+  width: 60%;
+  margin: 1rem 0 2rem 0;
+}
+body main section.my-info div.chart div.progress {
+  margin-bottom: 1rem;
+}
+body main section.resume {
+  min-height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem 10rem;
+}
+body main section.resume div.table {
+  flex: 5 1 500px;
+  width: 50%;
+}
+body main section.resume div.table table {
+  border-collapse: collapse;
+  margin-right: 3rem;
+  overflow-x: scroll;
+}
+body main section.resume div.table table tr {
+  border-bottom: 2px solid #8e30d7;
+  transition: all 0.3s ease;
+}
+body main section.resume div.table table tr:hover {
+  background-color: #f1e1ff;
+}
+body main section.resume div.table table tr td {
+  padding: 0.5rem 2rem;
+  vertical-align: middle;
+}
+body main section.resume div.table table tr td ul {
+  margin-top: 1rem;
+}
+body main section.resume div.photo img {
+  width: 30vw;
+  border-radius: 20px;
+}
+body footer {
+  background-color: #e6caff;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer p {
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+  section.resume {
+    overflow-x: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  section.resume div.table {
+    min-width: 400px;
+  }
+  section.resume img {
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */

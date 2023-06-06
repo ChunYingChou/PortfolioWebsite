@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashley Chou的個人網頁</title>
+    <!-- 載入網站icon -->
+    <link rel="icon" href="./images/faicon.ico" />
+    <!-- 載入bootstrap (CSS) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- 載入Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <!--載入CSS-->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/bubbles.css" />
+  </head>
+
+  <body>
+    <!-- 泡泡動畫 -->
+    <div id="background-wrap">
+      <div class="bubble x1"></div>
+      <div class="bubble x2"></div>
+      <div class="bubble x3"></div>
+      <div class="bubble x4"></div>
+      <div class="bubble x5"></div>
+      <div class="bubble x6"></div>
+      <div class="bubble x7"></div>
+      <div class="bubble x8"></div>
+      <div class="bubble x9"></div>
+      <div class="bubble x10"></div>
+    </div>
+
+    <!-- 開場動畫 -->
+    <section class="animation-wrapper">
+      <section class="animation">
+        <div class="image-area">
+          <h1 class="website-title">Portfolio Website</h1>
+          <img src="./images/flower.jpg" alt="flower image" />
+        </div>
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </section>
+      <div class="slider"></div>
+    </section> 
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/LOGO.svg" alt="LOGO"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >關於Ashley</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:chunying921015@gmai1.com">聯絡我
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://medium.com/@chunying921015">學習心得Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  多人協作
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink" 
+                  style="width: 230px"  
+                >
+                  <li><a class="dropdown-item" target="_blank" href="https://johnnytsai81.github.io/simple-twitter/">simple-twitter</a>|<a class="dropdown-item" target="_blank" href="https://github.com/johnnytsai81/simple-twitter">Github</a></li>
+                  </ul>
+                  </li>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  我的作品集
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                  
+                >
+                  <li><a class="dropdown-item" target="_blank" href="https://koreatravel1.netlify.app/">2023韓國旅遊推薦網站</a>|<a class="dropdown-item" target="_blank" href="https://github.com/ChunYingChou/KoreaTravelProject">Github</a></li>
+                  <li><a class="dropdown-item" target="_blank" href="https://lively-cowboy-boots-lion.cyclic.app">2023台南精選小吃網站</a>|<a class="dropdown-item" target="_blank" href="https://github.com/ChunYingChou/express-snack">Github</a></li>
+                  <li><a class="dropdown-item" target="_blank" href="https://chunyingchou.github.io/react-picture-app">圖片搜尋網站</a>|<a class="dropdown-item" target="_blank" href="https://github.com/ChunYingChou/react-picture-app">Github</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="personal-profile">
+        <div class="word">
+          <h1>嗨!<br />我是Ashley!</h1>
+          <p>
+            畢業於元智大學資訊傳播學系，<br />曾經在TVBS聯利媒體業務部擔任內勤專員6年。
+          </p>
+          <p>
+            2022年6月起加入Alpha Camp學習JavaScript 全端開發課程，<br />在一邊全職工作兼顧學習的狀態下，於2023年1月順利結業。
+          </p>
+          <a href="https://www.cakeresume.com/s--WykB1cbLDKICxD37hj9Ckw--/chunying-789cba">了解更多</a>
+        </div>
+
+        <img src="./images/Group 1.png" alt="個人照" />
+      </section>
+
+      <section class="my-info">
+        <div class="word">
+          <h2>關於我的一些事</h2>
+          <p>
+            我在Alpha Camp完成了JavaScript
+            全端開發課程。大學科系曾學過C++和C#語言，為寫程式這件事打下基礎。為了職涯發展考量，因此離開固有的舒適圈，重新學習程式語言。
+          </p>
+
+          <p>我的主要技能有：網頁切版（HTML/CSS/JS）、使用CSS預處理器-SCSS、React.js / Next.js、Node.js / Express、Git版本控制。</p>
+        </div>
+
+        <div class="chart">
+          <span>網頁切版（HTML/CSS/JS）</span>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+              role="progressbar"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 100%"
+            ></div>
+          </div>
+
+          <span>使用CSS預處理器-SCSS</span>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+              role="progressbar"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 100%"
+            ></div>
+          </div>
+
+          <span>React.js/Next.js</span>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 70%"
+            ></div>
+          </div>
+
+          <span>Node.js / Express</span>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+              role="progressbar"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 60%"
+            ></div>
+          </div>
+
+          <span>Git版本控制</span>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              role="progressbar"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 70%"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume">
+        <div class="table">
+          <table>
+            <tr style="border-top: 2px solid #8e30d7">
+              <td style="width: 20%">自我簡介</td>
+              <td style="width: 80%">擁有6年的工作經驗，過往工作中需要時常與人溝通交流，跨組間的協調共同達成客戶需求。因為不喜歡一成不變的工作狀態到老而選擇跳脫舒適圈，進入變化多端的coding世界。平常會在Medium撰寫自己摸索程式的學習心得，將自己程式小白的學習經驗分享給更多人。</td>
+            </tr>
+            <tr>
+              <td>學歷</td>
+              <td>元智大學 資訊傳播學系互動育樂科技組 學士</td>
+            </tr>
+            <tr>
+              <td>經歷</td>
+              <td>
+                <ul>
+                  <li>TVBS聯利媒體-業務部 日程編排組 助理專員</li>
+                  <li>TVBS聯利媒體-業務部 客戶服務組 專員</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>工作技能</td>
+              <td>
+                <img src="./icons/icons8-html-5.svg" alt="HTML5" />
+                <img src="./icons/icons8-css3.svg" alt="CSS3" />
+                <img src="./icons/icons8-javascript.svg" alt="javascript" />
+                <img src="./icons/icons8-react-native.svg" alt="React" />
+              </td>
+            </tr>
+            <tr>
+              <td>開發經驗</td>
+              <td>
+                <p style="margin-top: 0.5rem">在Alpha Camp學習的過程中，除了使用codepen以及在github上放了自己做的許多小專案外，畢業考也曾參與
+                Twitter 小組專案挑戰<strong>多人協作</strong>採用<strong>前後端開發模式</strong>做了<u>simple
+                twitter</u>，在此之中熟悉了Git版本控制。</p>
+                <p>在網頁前端專案方面自己做了<u>2023韓國旅遊推薦網</u>和<u>個人Portfolio Website</u>、用<strong>Express.js</strong>做成<u>2023台南精選小吃網站</u>、用<strong>React.js串接unsplash API</strong>做成的<u>圖片搜尋網站</u>，並在開發過程中套用了Bootstrap、Font Awesome等工具，也使用了SCSS寫法。</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="photo">
+          <img src="./images/我與狗狗.jpg" alt="生活照" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright © 2023 AshleyChou. All rights reserved.</p>
+    </footer>
+
+    <!-- 載入bootstrap (JS) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 載入gsap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+      integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- 載入js -->
+    <script src="./app.js"></script>
+  </body>
+</html>
