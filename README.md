@@ -29,6 +29,8 @@ https://ashley-portfolio-website.netlify.app/
 
 ## 專案畫面
 
+![圖片](https://upload.cc/i1/2023/06/06/cD29ZS.jpg)
+
   <br />
   <br />
 
